@@ -1,0 +1,16 @@
+@import "https://fonts.googleapis.com/css2?family=Inter&display=swap";
+body {
+  background-color: #070d18;
+  width: auto;
+  height: auto;
+  padding: 0 3em 94px 2.5em;
+}
+
+.page {
+  display: grid;
+  padding: 0 3em 94px 2.5em;
+  background-color: #070d18;
+  grid-template-columns: repeat(auto-fit, minmax(7em, auto));
+  grid-template-rows: repeat(auto-fit, minmax(1em, auto));
+  grid-template-areas: "header header header header" "back back back back";
+}
